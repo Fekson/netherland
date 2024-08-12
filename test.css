@@ -1,0 +1,31 @@
+/* Ustawienie tła dla całej strony */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Stylizacja linku */
+a {
+    color: #008CBA;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #008CBA;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Zmiana wyglądu linku po najechaniu */
+a:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+/* Dodatkowa stylizacja dla paragrafu */
+p {
+    margin-top: 20px;
+}
